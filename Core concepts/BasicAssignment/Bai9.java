@@ -4,6 +4,7 @@ public class Bai9 {
     }
 
     public static boolean checkSTN(long n){
+        //TODO: ko dùng .toString, charAt, length dùng cách khác
         String s = Long.toString(n);
         for(int i = 0; i < s.length(); i++){
             if(s.charAt(i) !=  s.charAt(s.length() - i - 1)){
@@ -25,6 +26,7 @@ public class Bai9 {
     }
 
     public static boolean checkSum(Long n){
+        //TODO: ko dùng .toString, charAt, length dùng cách khác
         String s = Long.toString(n);
         Long sum = 0L;
         for(int i = 0; i < s.length(); i++){

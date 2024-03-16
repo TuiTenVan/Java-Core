@@ -35,10 +35,12 @@ public class Bai6a {
             a[i] = sc.nextInt();
         }
         int x = sc.nextInt();
+        //TODO: ko dùng .sort
         Arrays.sort(a);
         
         int index = findInsertionIndex(n, a, x);
         int[] result = insertValue(n, a, x, index);
+        //TODO: ko dùng .length
         for (int i = 0; i < result.length; i++) {
             System.out.print(result[i] + " ");
         }

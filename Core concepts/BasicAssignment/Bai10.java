@@ -4,6 +4,7 @@ public class Bai10 {
         if (n <= 1) {
             return false;
         }
+        //TODO: viết hàm thay thế cho sqrt
         for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 return false;

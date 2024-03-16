@@ -9,9 +9,11 @@ public class Bai3 {
         }
         return a;
     }
+
     public static long lcm(long a, long b){
         return a / gcd(a, b) * b;
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Long a = sc.nextLong();

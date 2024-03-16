@@ -5,8 +5,10 @@ public class Bai2 {
         Scanner sc = new Scanner(System.in);
         Long n = sc.nextLong();
         int count = 0;
+        //TODO: Viết hàm thay thế cho sqrt
         for(int i = 1; i <= Math.sqrt(n); i++){
             if(n % i == 0){
+                //TODO: Viết hàm thay thế cho pow
                 if(Math.pow(n / i, 2) != n){
                     System.out.println(i + " " + n / i);
                     count += 2;

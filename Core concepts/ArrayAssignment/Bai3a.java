@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Bai3a {
     public static void count(int[] arr, int n) {
+        //TODO: không nên fix cứng giá trị
         int[] d = new int[1000001];    
         for (int i = 0; i < n; i++) {
             d[arr[i]]++;

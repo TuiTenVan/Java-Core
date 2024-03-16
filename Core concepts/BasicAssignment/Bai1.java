@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Bai1{
+    //TODO: Câu từ viết trau chuốt hơn
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Long n = sc.nextLong();

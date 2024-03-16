@@ -9,6 +9,7 @@ public class Bai2a {
         for(int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        //TODO: ko sửu dụng sort
         Arrays.sort(arr);
         for(int i = 0; i < n; i++) {
             System.out.print(arr[i] + " "); 

@@ -20,6 +20,7 @@ public class Bai9a {
                 b[index++] = a[i][j]; 
             }
         }
+        //TODO: ko dùng .sort
         Arrays.sort(b);
         int curr = 0;
         for(int i = 0; i < m; i++) {

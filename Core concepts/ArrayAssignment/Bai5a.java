@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Bai5a {
     public static int[] insert(int[] a, int[] b, int p) {
+        //TODO: ko dùng .length
         int n = a.length;
         int m = b.length;
         int[] result = new int[n + m];
@@ -31,6 +32,7 @@ public class Bai5a {
         }
         int p = sc.nextInt();
         int[] result = insert(a, b, p);
+        //TODO: ko dùng .length
         for (int i = 0; i < result.length; i++) {
             System.out.print(result[i] + " ");
         }

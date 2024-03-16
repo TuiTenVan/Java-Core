@@ -5,6 +5,7 @@ public class Bai5 {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         Long sum = 0L;
+        //TODO: khng dùng length và charAt, dùng cách khác
         for (int i = 0; i < s.length(); i++) {
             sum += s.charAt(i) - '0';
         }

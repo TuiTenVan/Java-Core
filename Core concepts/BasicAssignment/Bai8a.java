@@ -1,6 +1,7 @@
 
 public class Bai8a {
     public static boolean CheckSTN(int n){
+        //TODO: ko dùng .toString, charAt, length dùng cách khác
         String s = Integer.toString(n);
         for(int i = 0; i < s.length(); i++){
             if(s.charAt(i) !=  s.charAt(s.length() - i - 1)){

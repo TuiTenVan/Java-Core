@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Bai4a {
+    //TODO: không nên fix cứng giá trị
     static boolean[] check = new boolean[10000001];
     public static void sieve() {
         for(int i = 0; i <= 10000000;++i) {
@@ -29,6 +30,7 @@ public class Bai4a {
         int index = -1;
         for(int i = 0; i < n; i++){
             if(check[arr[i]]){
+                //TODO: Viết hàm thay thế  cho abs
                 if(min > Math.abs(arr[i] - x)){
                     index = i;
                 }
